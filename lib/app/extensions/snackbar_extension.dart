@@ -6,7 +6,9 @@ extension SnackbarExtension on BuildContext {
       SnackBar(
         behavior: .floating,
         backgroundColor: isError ? Colors.red : null,
-        content: Text(text, style: const TextStyle(fontWeight: .bold)),
+        content: Text(text, style: const TextStyle(fontWeight: .bold
+          ),
+        ),
       ),
     );
   }
