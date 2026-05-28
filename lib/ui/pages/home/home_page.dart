@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
           actions: [IconButton(onPressed: () {}, icon: Icon(LucideIcons.bell))],
         ),
         body: SafeArea(
-          child: Placeholder(),
+          child: Chip(label: Text('asdf')),
         ),
       ),
     );
